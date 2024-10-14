@@ -6,7 +6,7 @@ import HeaderSection from "../header";
 
 export default function DocumentPage() {
   return (
-    <div className="flex flex-col  min-h-screen white">
+    <div className="flex flex-col bg-white min-h-screen">
       {/* use header component in our page*/}
       <HeaderSection />
       <div className="mt-5 text-center ">
@@ -22,7 +22,7 @@ export default function DocumentPage() {
           <div className="bg-sky-300 w-full mb-4 p-4 mx-auto rounded-lg  text-black ">
            {/* How to create on vercel */}
             <h2 className="text-xl mb-2 font-semibold ">
-              Create a Vercel Account
+              Create Vercel Account
             </h2>
             <p>1.Go to Vercel's website.</p>
             <p className="mt-2">2.Sign up using GitHub, Google, or email.</p>
