@@ -1,3 +1,4 @@
+import Image from "next/image";
 // hero section of the website
 export default function HeroSectionpage() {
   return (
@@ -20,7 +21,31 @@ export default function HeroSectionpage() {
             rendering and static site generation and API routes
           </p>
         </div>
+        {/* installation process */}
+        <div className=" text-center justify-center p-2"> 
+        <h2 className="text-3xl font-bold mt-10"> Installation of Next.js</h2>
+      <div className="bg-white p-2 rounded-lg w-full md:w-1/2 mt-5 ">
+        <p className="text-2xl font-bold italic"> Commands</p>
+        <p className="text-sm mb-2">
+          To create next project:{" "}
+          <span className="font-semibold italic">
+            npx create-next-app@latest{" "}
+          </span>
+        </p>
+        <p>
+          To run your project:
+          <span className="font-bold italic"> npm run dev</span>{" "}
+        </p>
       </div>
+      {/* Add image  */}
+      <div className="mt-6">
+        <Image src="/images/image.jpg" height={300} width={400} alt="Next" />
+        </div> 
+      </div>
+      </div>
+      
+       
+      
     </>
   );
 }
