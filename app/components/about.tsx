@@ -5,9 +5,9 @@ export default function AboutSection() {
   return (
     <>
       {/* installation process */}
-      <div className="flex flex-col text-center items-center justify-center mt-8 ">
-        <h3 className="text-3xl font-bold mb-4"> Installation of Next.js</h3>
-        <div className="bg-gray-300 p-2 rounded-lg w-full md:w-1/2 mt-5 ">
+      <div className="flex flex-col text-center items-center justify-center mt-8 p-4">
+        <h3 className="text-3xl font-bold mb-4"> Installation of Next.Js</h3>
+        <div className="bg-white p-2 rounded-lg w-full md:w-1/2 mt-5 ">
           <p className="text-2xl font-bold italic mt-5"> Commands</p>
           <p className="text-sm mt-5 mb-2 ">
             To create next project:
