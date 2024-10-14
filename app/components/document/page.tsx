@@ -13,7 +13,6 @@ export default function DocumentPage() {
         <h3 className="flex items-center justify-center text-3xl font-semibold">
           Vercel <SiVercel className="w-12 h-12 ml-2" />
         </h3>
-
         <p className="text-2xl italic font-semibold mt-5">
           Deploy Your Project in Seconds with Vercel.
         </p>
@@ -25,7 +24,7 @@ export default function DocumentPage() {
               Create Vercel Account
             </h2>
             <p>1.Go to Vercel's website.</p>
-            <p className="mt-2">2.Sign up using GitHub, Google, or email.</p>
+            <p className="mt-2">2.Sign up using GitHub or email.</p>
           </div>
             {/*how to connect repository*/}
           <div className="bg-sky-300 w-full p-4 mx-auto text-black  rounded-lg mb-4 ">
