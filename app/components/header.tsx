@@ -17,7 +17,7 @@ export default function HeaderSection() {
             {/* list items give specific font ,style*/}
             <ul className="flex flex-grow space-x-2 justify-center items-center uppercase" >
                 <li className="font-medium hover:underline"> <Link href={"/"}>home </Link></li>
-                <li className="font-medium hover:underline"> <Link href={"/components/document"}>about </Link></li>
+                <li className="font-medium hover:underline"> <Link href={"/components/document"}>Document</Link></li>
             </ul>
     </header>
     </>
