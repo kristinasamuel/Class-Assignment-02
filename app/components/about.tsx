@@ -7,9 +7,9 @@ export default function AboutSection() {
       {/* installation process */}
       <div className="flex flex-col text-center items-center justify-center mt-8 p-4">
         <h3 className="text-3xl font-bold mb-4"> Installation of Next.Js</h3>
-        <div className="bg-white p-2 rounded-lg w-full md:w-1/2 mt-5 ">
+        <div className="bg-white rounded-lg w-full md:w-1/2 mt-5 p-2 ">
           <p className="text-2xl font-bold italic mt-5"> Commands</p>
-          <p className="text-sm mt-5 mb-2 ">
+          <p className="text-sm mt-5 mb-2">
             To create next project:
             <span className="font-bold italic">npx create-next-app@latest</span>
           </p>
@@ -17,7 +17,7 @@ export default function AboutSection() {
             To run your project:
             <span className="font-bold italic"> npm run dev</span>
           </p>
-          <p className="mt-3 text-sm  ">
+          <p className=" text-sm mt-3">
             Your Next.js project is now ready to use! You can start building
             dynamic and fast web applications with Next.js. Visit
             "http://localhost:3000" to see your application in action.

@@ -5,7 +5,7 @@ export default function HeroSectionpage() {
     <>
       {/* Next.js introduction*/}
       <div className="flex flex-col items-center justify-center mt-10 p-4 ">
-        <div className="p-6 bg-white rounded shadow-lg text-center w-full md:w-1/2">
+        <div className="text-center bg-white rounded shadow-lg  w-full md:w-1/2 p-6">
           {/*  heading  give styling ,font size */}
           <h1 className=" text-3xl font-bold"> Next.Js</h1>
           <h2 className="text-2xl font-bold italic">
